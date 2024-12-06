@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-customer-usage-details.aspx",
+      "appliesTo": "MS3DB/customer-usage-details.aspx.cs",
+      "type": "launch"
+    }
+  ]
+}
