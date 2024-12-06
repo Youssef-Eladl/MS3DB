@@ -1,0 +1,274 @@
+/* Reset and General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  /* Prevent content from hiding behind the fixed top-nav */
+  background-color: #f7f7ef;
+}
+
+/* Top Navigation Styles */
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px; /* Increased padding for better spacing */
+  display: flex;
+  justify-content: space-between; /* Align buttons to the edges */
+  align-items: center;
+  z-index: 1001; /* Higher than main header */
+  transition: transform 0.3s ease-in-out;
+}
+
+.top-nav.hidden {
+  transform: translateY(-100%);
+}
+
+.top-nav .nav-link {
+  color: #333;
+  text-decoration: none;
+  padding: 0 15px; /* Increased padding for buttons */
+  font-size: 14px; /* Smaller text size */
+}
+
+/* Slideshow Styles */
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 400px; /* Adjust based on desired height */
+}
+
+.slide {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Main Header Styles */
+header {
+  margin-top: 0; /* No extra margin since body has padding-top */
+  background-color: #123950;
+}
+
+nav {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Add a colored underline under nav links on hover */
+nav ul.nav-links li a {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+nav ul.nav-links li a:hover {
+    border-bottom: 2px solid #d94331;
+}
+
+nav .logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 15px 20px;
+}
+
+nav ul.nav-links {
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  background-color: #333;
+  top: 60px;
+  left: 0;
+  width: 100%;
+}
+
+nav ul.nav-links li {
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
+
+nav ul.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+nav ul.nav-links li a:hover {
+  background-color: #575757;
+}
+
+/* Show nav links on hover */
+nav:hover ul.nav-links {
+  display: block;
+}
+
+/* Main Content Styles */
+main {
+  min-height: calc(100vh - 200px); /* Adjust based on top-nav and footer height */
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  /* Keep top-nav visible on all screen sizes */
+
+  header {
+    margin-top: 0; /* No need to push down for top-nav */
+  }
+
+  nav ul.nav-links {
+    display: flex;
+    position: static;
+    background-color: transparent;
+    width: auto;
+  }
+
+  nav ul.nav-links li {
+    border: none;
+  }
+
+  nav ul.nav-links li a {
+    padding: 15px 20px;
+    font-size: 16px; /* Slightly larger on bigger screens */
+  }
+
+  /* Keep nav-links display flex to ensure consistency */
+  nav:hover ul.nav-links {
+    display: flex;
+  }
+
+  /* Slideshow Height Adjustment for Larger Screens */
+  .slideshow-container {
+    height: 500px; /* Adjust as needed */
+  }
+}
+
+/* Smooth Transition for Top Nav */
+.top-nav,
+.top-nav.hidden {
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #123950;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* Main Section */
+main {
+    padding: 2em;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 1em;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+.expand-btn {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.expand-btn:hover {
+    background-color: #0056b3;
+}
+
+.accounts-table th {
+    background-color: #444;
+}
+
+/* Hidden Rows */
+.hidden {
+    display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        font-size: 0.9em;
+    }
+
+    th, td {
+        padding: 0.5em;
+    }
+
+    .expand-btn {
+        padding: 0.4em 0.8em;
+    }
+}
+

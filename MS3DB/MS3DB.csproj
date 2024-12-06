@@ -67,164 +67,166 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Pages\admin-customer-profiles.aspx" />
-    <Content Include="Pages\admin-dashboard.aspx" />
-    <Content Include="Pages\admin-payments.aspx" />
-    <Content Include="Pages\admin-remove-benefits.aspx" />
-    <Content Include="Pages\admin-service-plans.aspx" />
-    <Content Include="Pages\admin-sms-offers.aspx" />
-    <Content Include="Pages\admin-stores-vouchers.aspx" />
-    <Content Include="Pages\admin-support-tickets.aspx" />
-    <Content Include="Pages\admin-total-usage.aspx" />
-    <Content Include="Pages\admin-wallets.aspx" />
-    <Content Include="Pages\customer-service-plans.aspx" />
-    <Content Include="Pages\customer-shops-transactions.aspx" />
-    <Content Include="Pages\customer-technical-support.aspx" />
-    <Content Include="Pages\customer-usage-benefits.aspx" />
-    <Content Include="Pages\faq.aspx" />
-    <Content Include="Pages\images\xcv.jpg" />
-    <Content Include="Pages\images\xyz.jpg" />
-    <Content Include="Pages\Login.aspx" />
-    <Content Include="Pages\contact.aspx" />
-    <Content Include="Pages\customer-dashboard.aspx" />
-    <Content Include="Pages\customer-payments-vouchers.aspx" />
-    <Content Include="Pages\Shared\_Layout.cshtml.css" />
+    <Content Include="admin-customer-profiles.aspx" />
+    <Content Include="admin-dashboard.aspx" />
+    <Content Include="admin-payments.aspx" />
+    <Content Include="admin-remove-benefits.aspx" />
+    <Content Include="admin-service-plans.aspx" />
+    <Content Include="admin-sms-offers.aspx" />
+    <Content Include="admin-stores-vouchers.aspx" />
+    <Content Include="admin-support-tickets.aspx" />
+    <Content Include="admin-total-usage.aspx" />
+    <Content Include="admin-wallets.aspx" />
+    <Content Include="customer-service-plans.aspx" />
+    <Content Include="customer-shops-transactions.aspx" />
+    <Content Include="customer-technical-support.aspx" />
+    <Content Include="customer-usage-benefits.aspx" />
+    <Content Include="faq.aspx" />
+    <Content Include="images\xcv.jpg" />
+    <Content Include="images\xyz.jpg" />
+    <Content Include="index.aspx" />
+    <Content Include="contact.aspx" />
+    <Content Include="customer-dashboard.aspx" />
+    <Content Include="customer-payments-vouchers.aspx" />
+    <Content Include="styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pages\admin-customer-profiles.aspx.cs">
+    <Compile Include="admin-customer-profiles.aspx.cs">
       <DependentUpon>admin-customer-profiles.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\admin-customer-profiles.aspx.designer.cs">
+    <Compile Include="admin-customer-profiles.aspx.designer.cs">
       <DependentUpon>admin-customer-profiles.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\admin-dashboard.aspx.cs">
+    <Compile Include="admin-dashboard.aspx.cs">
       <DependentUpon>admin-dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\admin-dashboard.aspx.designer.cs">
+    <Compile Include="admin-dashboard.aspx.designer.cs">
       <DependentUpon>admin-dashboard.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\admin-payments.aspx.cs">
+    <Compile Include="admin-payments.aspx.cs">
       <DependentUpon>admin-payments.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\admin-payments.aspx.designer.cs">
+    <Compile Include="admin-payments.aspx.designer.cs">
       <DependentUpon>admin-payments.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\admin-remove-benefits.aspx.cs">
+    <Compile Include="admin-remove-benefits.aspx.cs">
       <DependentUpon>admin-remove-benefits.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\admin-remove-benefits.aspx.designer.cs">
+    <Compile Include="admin-remove-benefits.aspx.designer.cs">
       <DependentUpon>admin-remove-benefits.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\admin-service-plans.aspx.cs">
+    <Compile Include="admin-service-plans.aspx.cs">
       <DependentUpon>admin-service-plans.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\admin-service-plans.aspx.designer.cs">
+    <Compile Include="admin-service-plans.aspx.designer.cs">
       <DependentUpon>admin-service-plans.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\admin-sms-offers.aspx.cs">
+    <Compile Include="admin-sms-offers.aspx.cs">
       <DependentUpon>admin-sms-offers.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\admin-sms-offers.aspx.designer.cs">
+    <Compile Include="admin-sms-offers.aspx.designer.cs">
       <DependentUpon>admin-sms-offers.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\admin-stores-vouchers.aspx.cs">
+    <Compile Include="admin-stores-vouchers.aspx.cs">
       <DependentUpon>admin-stores-vouchers.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\admin-stores-vouchers.aspx.designer.cs">
+    <Compile Include="admin-stores-vouchers.aspx.designer.cs">
       <DependentUpon>admin-stores-vouchers.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\admin-support-tickets.aspx.cs">
+    <Compile Include="admin-support-tickets.aspx.cs">
       <DependentUpon>admin-support-tickets.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\admin-support-tickets.aspx.designer.cs">
+    <Compile Include="admin-support-tickets.aspx.designer.cs">
       <DependentUpon>admin-support-tickets.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\admin-total-usage.aspx.cs">
+    <Compile Include="admin-total-usage.aspx.cs">
       <DependentUpon>admin-total-usage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\admin-total-usage.aspx.designer.cs">
+    <Compile Include="admin-total-usage.aspx.designer.cs">
       <DependentUpon>admin-total-usage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\admin-wallets.aspx.cs">
+    <Compile Include="admin-wallets.aspx.cs">
       <DependentUpon>admin-wallets.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\admin-wallets.aspx.designer.cs">
+    <Compile Include="admin-wallets.aspx.designer.cs">
       <DependentUpon>admin-wallets.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\customer-service-plans.aspx.cs">
+    <Compile Include="customer-service-plans.aspx.cs">
       <DependentUpon>customer-service-plans.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\customer-service-plans.aspx.designer.cs">
+    <Compile Include="customer-service-plans.aspx.designer.cs">
       <DependentUpon>customer-service-plans.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\customer-shops-transactions.aspx.cs">
+    <Compile Include="customer-shops-transactions.aspx.cs">
       <DependentUpon>customer-shops-transactions.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\customer-shops-transactions.aspx.designer.cs">
+    <Compile Include="customer-shops-transactions.aspx.designer.cs">
       <DependentUpon>customer-shops-transactions.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\customer-technical-support.aspx.cs">
+    <Compile Include="customer-technical-support.aspx.cs">
       <DependentUpon>customer-technical-support.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\customer-technical-support.aspx.designer.cs">
+    <Compile Include="customer-technical-support.aspx.designer.cs">
       <DependentUpon>customer-technical-support.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\customer-usage-benefits.aspx.cs">
+    <Compile Include="customer-usage-benefits.aspx.cs">
       <DependentUpon>customer-usage-benefits.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\customer-usage-benefits.aspx.designer.cs">
+    <Compile Include="customer-usage-benefits.aspx.designer.cs">
       <DependentUpon>customer-usage-benefits.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\faq.aspx.cs">
+    <Compile Include="faq.aspx.cs">
       <DependentUpon>faq.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\faq.aspx.designer.cs">
+    <Compile Include="faq.aspx.designer.cs">
       <DependentUpon>faq.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\contact.aspx.cs">
+    <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\contact.aspx.designer.cs">
+    <Compile Include="contact.aspx.designer.cs">
       <DependentUpon>contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\customer-dashboard.aspx.cs">
+    <Compile Include="customer-dashboard.aspx.cs">
       <DependentUpon>customer-dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\customer-dashboard.aspx.designer.cs">
+    <Compile Include="customer-dashboard.aspx.designer.cs">
       <DependentUpon>customer-dashboard.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\customer-payments-vouchers.aspx.cs">
+    <Compile Include="customer-payments-vouchers.aspx.cs">
       <DependentUpon>customer-payments-vouchers.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\customer-payments-vouchers.aspx.designer.cs">
+    <Compile Include="customer-payments-vouchers.aspx.designer.cs">
       <DependentUpon>customer-payments-vouchers.aspx</DependentUpon>
     </Compile>
+    <Compile Include="objects\ServicePlan.cs" />
+    <Compile Include="objects\ServicePlanonly.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
