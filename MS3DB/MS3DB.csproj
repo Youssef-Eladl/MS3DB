@@ -78,7 +78,6 @@
     <Content Include="admin-remove-benefits.aspx" />
     <Content Include="admin-service-plans.aspx" />
     <Content Include="admin-sms-offers.aspx" />
-    <Content Include="admin-physical-shop-vouchers.aspx" />
     <Content Include="admin-stores-vouchers.aspx" />
     <Content Include="admin-support-tickets.aspx" />
     <Content Include="admin-total-usage.aspx" />
@@ -86,10 +85,14 @@
     <Content Include="admin-wallet-check.aspx" />
     <Content Include="admin-wallets.aspx" />
     <Content Include="app.js" />
+    <Content Include="customer-all-shops.aspx" />
     <Content Include="customer-service-plans.aspx" />
     <Content Include="customer-shops-transactions.aspx" />
     <Content Include="customer-technical-support.aspx" />
+    <Content Include="customer-top-10.aspx" />
+    <Content Include="customer-unsubscribed-plan.aspx" />
     <Content Include="customer-usage-benefits.aspx" />
+    <Content Include="customer-usage-details.html" />
     <Content Include="faq.aspx" />
     <Content Include="images\xcv.jpg" />
     <Content Include="images\xyz.jpg" />
@@ -180,13 +183,6 @@
     <Compile Include="admin-sms-offers.aspx.designer.cs">
       <DependentUpon>admin-sms-offers.aspx</DependentUpon>
     </Compile>
-    <Compile Include="admin-physical-shop-vouchers.aspx.cs">
-      <DependentUpon>admin-physical-shop-vouchers.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="admin-physical-shop-vouchers.aspx.designer.cs">
-      <DependentUpon>admin-physical-shop-vouchers.aspx</DependentUpon>
-    </Compile>
     <Compile Include="admin-stores-vouchers.aspx.cs">
       <DependentUpon>admin-stores-vouchers.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -229,6 +225,13 @@
     <Compile Include="admin-wallets.aspx.designer.cs">
       <DependentUpon>admin-wallets.aspx</DependentUpon>
     </Compile>
+    <Compile Include="customer-all-shops.aspx.cs">
+      <DependentUpon>customer-all-shops.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-all-shops.aspx.designer.cs">
+      <DependentUpon>customer-all-shops.aspx</DependentUpon>
+    </Compile>
     <Compile Include="customer-service-plans.aspx.cs">
       <DependentUpon>customer-service-plans.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -249,6 +252,20 @@
     </Compile>
     <Compile Include="customer-technical-support.aspx.designer.cs">
       <DependentUpon>customer-technical-support.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-top-10.aspx.cs">
+      <DependentUpon>customer-top-10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-top-10.aspx.designer.cs">
+      <DependentUpon>customer-top-10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-unsubscribed-plan.aspx.cs">
+      <DependentUpon>customer-unsubscribed-plan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-unsubscribed-plan.aspx.designer.cs">
+      <DependentUpon>customer-unsubscribed-plan.aspx</DependentUpon>
     </Compile>
     <Compile Include="customer-usage-benefits.aspx.cs">
       <DependentUpon>customer-usage-benefits.aspx</DependentUpon>

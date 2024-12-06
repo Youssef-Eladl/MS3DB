@@ -1,63 +1,84 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="admin-cashback-transactions.aspx.cs" Inherits="MS3DB.admin_cashback_transactions" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="admin-cashback-transactions.aspx.cs" Inherits="MS3DB.Pages.admin_cashback_transactions" %>
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head runat="server">
     <meta charset="UTF-8">
     <title>Telecommunication - Cashback Transactions</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         /* Additional styles specific to Cashback Transactions page */
-
         .cashback-transactions {
             padding: 20px;
         }
-
         .cashback-transactions h1 {
             text-align: center;
             margin-bottom: 20px;
             color: #333;
         }
-
+        .filter-form {
+            max-width: 500px;
+            margin: 0 auto 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .filter-form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .filter-form input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .filter-form button {
+            padding: 10px 20px;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .filter-form button:hover {
+            background-color: #166fe5;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
             background-color: #fff;
         }
-
         th, td {
             padding: 12px;
             border: 1px solid #ddd;
             text-align: left;
         }
-
         th {
             background-color: #f2f2f2;
         }
-
         tr:hover {background-color: #f5f5f5;}
-
         /* Responsive Design */
         @media (max-width: 768px) {
             table, thead, tbody, th, td, tr { 
                 display: block; 
             }
-
             th {
                 position: absolute;
                 top: -9999px;
                 left: -9999px;
             }
-
             tr { border: 1px solid #ccc; margin-bottom: 5px; }
-
             td { 
                 border: none;
                 border-bottom: 1px solid #eee; 
                 position: relative;
                 padding-left: 50%; 
             }
-
             td:before { 
                 position: absolute;
                 top: 12px;
@@ -67,23 +88,23 @@
                 white-space: nowrap;
                 font-weight: bold;
             }
-
             /* Label the data */
-            td:nth-of-type(1):before { content: "Wallet ID"; }
-            td:nth-of-type(2):before { content: "Number of Cashback Transactions"; }
+            td:nth-of-type(1):before { content: "Mobile No"; }
+            td:nth-of-type(2):before { content: "Number of Transactions"; }
+            td:nth-of-type(3):before { content: "Total Points Earned"; }
         }
     </style>
 </head>
-<body>
+<body runat="server">
 
     <!-- Header -->
     <header>
         <nav>
-            <a href="admin-dashboard.html" class="logo">Telecommunication</a>
+            <a href="admin-dashboard.aspx" class="logo">Telecommunication</a>
             <ul class="nav-links">
                 <!-- Navigation links -->
-                <li><a href="admin-dashboard.html">Dashboard</a></li>
-   
+                <li><a href="admin-dashboard.aspx">Dashboard</a></li>
+                <!-- ... -->
             </ul>
         </nav>
     </header>
@@ -91,17 +112,34 @@
     <!-- Main Content -->
     <main>
         <section class="cashback-transactions">
-            <h1>Cashback Transactions per Wallet ID</h1>
+            <h1>Accepted Payment Transactions and Earned Points</h1>
+
+            <div class="filter-form">
+                <form id="filterForm" method="post" runat="server">
+                    <label for="mobileNo">Mobile Number:</label>
+                    <asp:TextBox ID="mobileNom" runat="server" required="true"></asp:TextBox>
+                    <asp:Button ID="filterButton" runat="server" Text="Filter" OnClick="FilterTransactions" />
+                </form>
+            </div>
 
             <table id="cashbackTable">
                 <thead>
                     <tr>
-                        <th>Wallet ID</th>
-                        <th>Number of Cashback Transactions</th>
+                        <th>Mobile No</th>
+                        <th>Number of Transactions</th>
+                        <th>Total Points Earned</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Data Rows will be populated here -->
+                    <asp:Repeater ID="transactionsRepeator" runat="server">
+                        <ItemTemplate>
+                            <tr>
+                                <td><%# Eval("MobileNo") %></td>
+                                <td><%# Eval("TransactionCount") %></td>
+                                <td><%# Eval("TotalPoints") %></td>
+                            </tr>
+                        </ItemTemplate>
+                    </asp:Repeater>
                 </tbody>
             </table>
         </section>
@@ -111,37 +149,5 @@
     <footer>
         <p>&copy; 2023 Telecommunication</p>
     </footer>
-
-    <!-- JavaScript for fetching data -->
-    <script>
-        // Fetch data from the backend
-        fetch('process-list-cashback-transactions.aspx', {
-            method: 'GET',
-        })
-        .then(response => response.json())
-        .then(data => {
-            const tableBody = document.querySelector('#cashbackTable tbody');
-            // Clear existing data
-            tableBody.innerHTML = '';
-            if (data.length > 0) {
-                data.forEach(item => {
-                    const row = document.createElement('tr');
-                    row.innerHTML = `
-                        <td>${item.walletID}</td>
-                        <td>${item.transactionCount}</td>
-                    `;
-                    tableBody.appendChild(row);
-                });
-            } else {
-                // No data found
-                const row = document.createElement('tr');
-                row.innerHTML = '<td colspan="2" style="text-align:center;">No records found.</td>';
-                tableBody.appendChild(row);
-            }
-        })
-        .catch(error => {
-            console.error('Error fetching data:', error);
-        });
-    </script>
 </body>
 </html>

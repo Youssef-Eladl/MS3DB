@@ -1,8 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="admin-eshops.aspx.cs" Inherits="MS3DB.admin_eshops" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="admin-eshops.aspx.cs" Inherits="MS3DB.Pages.admin_eshops" %>
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head runat="server">
     <meta charset="UTF-8">
     <title>Telecommunication - E-Shops and Redeemed Vouchers</title>
     <link rel="stylesheet" href="styles.css">
@@ -79,15 +79,15 @@
         }
     </style>
 </head>
-<body>
+<body runat="server">
 
  <!-- Header -->
  <header>
     <nav>
-      <a href="admin-dashboard.html" class="logo">Telecommunication</a>
+      <a href="admin-dashboard.aspx" class="logo">Telecommunication</a>
       <ul class="nav-links">
         <!-- Navigation links -->
-        <li><a href="admin-dashboard.html">Dashboard</a></li>
+        <li><a href="admin-dashboard.aspx">Dashboard</a></li>
         <!-- ... -->
       </ul>
     </nav>
@@ -110,18 +110,18 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Data Rows will be populated here -->
-                    <!-- Example row -->
-                    <!--
-                    <tr>
-                        <td>1</td>
-                        <td>Shop A</td>
-                        <td>https://shopa.com</td>
-                        <td>4.5</td>
-                        <td>101</td>
-                        <td>50.00</td>
-                    </tr>
-                    -->
+                    <asp:Repeater ID="eshopsRepeater" runat="server">
+                        <ItemTemplate>
+                            <tr>
+                                <td><%# Eval("ShopID") %></td>
+                                <td><%# Eval("ShopName") %></td>
+                                <td><a href="<%# Eval("URL") %>" target="_blank"><%# Eval("URL") %></a></td>
+                                <td><%# Eval("Rating") %></td>
+                                <td><%# Eval("VoucherID") %></td>
+                                <td><%# Eval("Value") %></td>
+                            </tr>
+                        </ItemTemplate>
+                    </asp:Repeater>
                 </tbody>
             </table>
         </section>
@@ -131,41 +131,5 @@
     <footer>
         <p>&copy; 2023 Telecommunication</p>
     </footer>
-
-    <!-- JavaScript for fetching data -->
-    <script>
-        // Fetch data from the backend
-        fetch('process-list-eshops.aspx', {
-            method: 'GET',
-        })
-        .then(response => response.json())
-        .then(data => {
-            const tableBody = document.querySelector('#eshopsTable tbody');
-            // Clear existing data
-            tableBody.innerHTML = '';
-            if (data.length > 0) {
-                data.forEach(item => {
-                    const row = document.createElement('tr');
-                    row.innerHTML = `
-                        <td>${item.shopID}</td>
-                        <td>${item.ShopName}</td>
-                        <td><a href="${item.URL}" target="_blank">${item.URL}</a></td>
-                        <td>${item.rating}</td>
-                        <td>${item.voucherID}</td>
-                        <td>${item.value}</td>
-                    `;
-                    tableBody.appendChild(row);
-                });
-            } else {
-                // No data found
-                const row = document.createElement('tr');
-                row.innerHTML = '<td colspan="6" style="text-align:center;">No records found.</td>';
-                tableBody.appendChild(row);
-            }
-        })
-        .catch(error => {
-            console.error('Error fetching data:', error);
-        });
-    </script>
 </body>
 </html>

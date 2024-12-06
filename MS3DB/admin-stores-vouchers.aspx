@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="admin-stores-vouchers.aspx.cs" Inherits="MS3DB.admin_stores_vouchers" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="admin-stores-vouchers.aspx.cs" Inherits="MS3DB.Pages.admin_stores_vouchers" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -83,10 +83,12 @@
  <!-- Header -->
  <header>
   <nav>
-    <a href="admin-dashboard.html" class="logo">Telecommunication</a>
+    <a href="admin-dashboard.aspx" class="logo">Telecommunication</a>
     <ul class="nav-links">
       <!-- Navigation links -->
-      <li><a href="admin-dashboard.html">Dashboard</a></li>
+      <li><a href="admin-dashboard.aspx">Dashboard</a></li>
+      <!-- ... -->
+      <li><a href="admin-payments.aspx">Payments</a></li>
       <!-- ... -->
     </ul>
   </nav>
@@ -96,32 +98,29 @@
     <main>
         <section class="stores-vouchers">
             <h1>Physical Stores and Redeemed Vouchers</h1>
-            <table id="storesVouchersTable">
+           <table id="physicalStoresTable">
                 <thead>
                     <tr>
                         <th>Shop ID</th>
                         <th>Shop Name</th>
-                        <th>Address</th>
-                        <th>Working Hours</th>
                         <th>Voucher ID</th>
-                        <th>Voucher Value</th>
-                        <th>Redeem Date</th>
+                        <th>Value</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Sample Data Row -->
-                    <tr>
-                        <td>1</td>
-                        <td>Store Alpha</td>
-                        <td>123 Main St, Cairo</td>
-                        <td>9 AM - 9 PM</td>
-                        <td>V1001</td>
-                        <td>$50</td>
-                        <td>2023-08-15</td>
-                    </tr>
-                    <!-- Additional Data Rows will be populated here -->
+                    <asp:Repeater ID="physicalStoresRepeater" runat="server">
+                        <ItemTemplate>
+                            <tr>
+                                <td><%# Eval("ShopID") %></td>
+                                <td><%# Eval("ShopName") %></td>
+                                <td><%# Eval("VoucherID") %></td>
+                                <td><%# Eval("Value") %></td>
+                            </tr>
+                        </ItemTemplate>
+                    </asp:Repeater>
                 </tbody>
             </table>
+
         </section>
     </main>
 
