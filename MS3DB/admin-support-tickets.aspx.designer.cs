@@ -9,9 +9,15 @@
 
 namespace MS3DB.Pages
 {
-
-
-	public partial class admin_support_tickets
-	{
-	}
+    public partial class ResolvedTickets
+    {
+        /// <summary>
+        /// resolvedTicketsRepeater control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify, move the field declaration from the designer file to the code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater resolvedTicketsRepeater;
+    }
 }

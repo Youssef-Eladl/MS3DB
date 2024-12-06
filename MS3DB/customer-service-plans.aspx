@@ -16,7 +16,6 @@
         <!-- Navigation links -->
         <li><a href="customer-dashboard.aspx">Dashboard</a></li>
         <li><a href="customer-service-plans.aspx">Service Plans</a></li>
-        <!-- ... -->
       </ul>
     </nav>
   </header>
@@ -24,41 +23,87 @@
   <!-- Main Content -->
   <main>
     <h1>Service Plans</h1>
-    <!-- Content for viewing and selecting service plans -->
 
+    <!-- Section 1: View All Plans -->
+    <section id="allPlansSection">
+      <h2>All Service Plans</h2>
+      <table id="servicePlansTable">
+        <thead>
+          <tr>
+            <th>Plan ID</th>
+            <th>Plan Name</th>
+            <th>Price</th>
+            <th>SMS Offered</th>
+            <th>Minutes Offered</th>
+            <th>Data Offered (MB)</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <asp:Repeater ID="servicePlansOnlyRepeater" runat="server">
+            <ItemTemplate>
+              <tr>
+                <td><%# Eval("PlanID") %></td>
+                <td><%# Eval("Name") %></td>
+                <td><%# Eval("Price", "{0:C}") %></td>
+                <td><%# Eval("SMSOffered") %></td>
+                <td><%# Eval("MinutesOffered") %></td>
+                <td><%# Eval("DataOffered") %></td>
+                <td><%# Eval("Description") %></td>
+              </tr>
+            </ItemTemplate>
+          </asp:Repeater>
+        </tbody>
+      </table>
+    </section>
 
-    
-            <table id="servicePlansTable">
+    <!-- Section 2: Unsubscribed Plans -->
+    <section id="unsubscribedPlansSection">
+      <h2>Unsubscribed Plans</h2>
+      <form id="unsubscribedPlansForm" runat="server">
+        <label for="txtMobileNumber">Enter Mobile Number:</label>
+        <input type="text" id="txtMobileNumber" runat="server" placeholder="Mobile Number" />
+        <asp:Button ID="btnFetchUnsubscribedPlans" runat="server" Text="Fetch Plans" OnClick="btnFetchUnsubscribedPlans_Click" />
+
+        <div id="results">
+          <asp:Repeater ID="unsubscribedPlansRepeater" runat="server">
+            <HeaderTemplate>
+              <table>
                 <thead>
-                    <tr>
-                        <th>Plan ID</th>
-                        <th>Plan Name</th>
-                        <th>Price</th>
-                        <th>SMS Offered</th>
-                        <th>Minutes Offered</th>
-                        <th>Data Offered (MB)</th>
-                        <th>Description</th>
-                    </tr>
+                  <tr>
+                    <th>Plan ID</th>
+                    <th>Plan Name</th>
+                    <th>Price</th>
+                    <th>SMS Offered</th>
+                    <th>Minutes Offered</th>
+                    <th>Data Offered</th>
+                    <th>Description</th>
+                  </tr>
                 </thead>
                 <tbody>
-                    <asp:Repeater ID="servicePlansOnlyRepeater" runat="server">
-                        <ItemTemplate>
-                            <tr>
-                                <td><%# Eval("PlanID") %></td>
-                                <td><%# Eval("Name") %></td>
-                                <td><%# Eval("Price") %></td>
-                                <td><%# Eval("SMSOffered") %></td>
-                                <td><%# Eval("MinutesOffered") %></td>
-                                <td><%# Eval("DataOffered") %></td>
-                                <td><%# Eval("Description") %></td>
-                            </tr>
-                        </ItemTemplate>
-                    </asp:Repeater>
+            </HeaderTemplate>
+            <ItemTemplate>
+              <tr>
+                <td><%# Eval("PlanID") %></td>
+                <td><%# Eval("PlanName") %></td>
+                <td><%# Eval("Price", "{0:C}") %></td>
+                <td><%# Eval("SMSOffered") %></td>
+                <td><%# Eval("MinutesOffered") %></td>
+                <td><%# Eval("DataOffered") %></td>
+                <td><%# Eval("Description") %></td>
+              </tr>
+            </ItemTemplate>
+            <FooterTemplate>
                 </tbody>
-            </table>
+              </table>
+            </FooterTemplate>
+          </asp:Repeater>
 
-        </main>
-
+          <p style="color: red;"><asp:Label ID="lblMessage" runat="server"></asp:Label></p>
+        </div>
+      </form>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer>
