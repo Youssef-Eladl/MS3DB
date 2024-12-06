@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Telecommunication - Cashback Transactions</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles specific to Cashback Transactions page */
+
+        .cashback-transactions {
+            padding: 20px;
+        }
+
+        .cashback-transactions h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {background-color: #f5f5f5;}
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            table, thead, tbody, th, td, tr { 
+                display: block; 
+            }
+
+            th {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+
+            tr { border: 1px solid #ccc; margin-bottom: 5px; }
+
+            td { 
+                border: none;
+                border-bottom: 1px solid #eee; 
+                position: relative;
+                padding-left: 50%; 
+            }
+
+            td:before { 
+                position: absolute;
+                top: 12px;
+                left: 12px;
+                width: 45%; 
+                padding-right: 10px; 
+                white-space: nowrap;
+                font-weight: bold;
+            }
+
+            /* Label the data */
+            td:nth-of-type(1):before { content: "Wallet ID"; }
+            td:nth-of-type(2):before { content: "Number of Cashback Transactions"; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="admin-dashboard.html" class="logo">Telecommunication</a>
+            <ul class="nav-links">
+                <!-- Navigation links -->
+                <li><a href="admin-dashboard.html">Dashboard</a></li>
+   
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="cashback-transactions">
+            <h1>Cashback Transactions per Wallet ID</h1>
+
+            <table id="cashbackTable">
+                <thead>
+                    <tr>
+                        <th>Wallet ID</th>
+                        <th>Number of Cashback Transactions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data Rows will be populated here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Telecommunication</p>
+    </footer>
+
+    <!-- JavaScript for fetching data -->
+    <script>
+        // Fetch data from the backend
+        fetch('process-list-cashback-transactions.aspx', {
+            method: 'GET',
+        })
+        .then(response => response.json())
+        .then(data => {
+            const tableBody = document.querySelector('#cashbackTable tbody');
+            // Clear existing data
+            tableBody.innerHTML = '';
+            if (data.length > 0) {
+                data.forEach(item => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${item.walletID}</td>
+                        <td>${item.transactionCount}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            } else {
+                // No data found
+                const row = document.createElement('tr');
+                row.innerHTML = '<td colspan="2" style="text-align:center;">No records found.</td>';
+                tableBody.appendChild(row);
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+    </script>
+</body>
+</html>
