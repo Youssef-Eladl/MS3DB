@@ -11,7 +11,7 @@ namespace MS3DB
 {
 
 
-	public partial class customer_dashboard
+	public partial class customer_get_cashback
 	{
 	}
 }

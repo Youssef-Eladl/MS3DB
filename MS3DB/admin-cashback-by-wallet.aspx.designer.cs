@@ -7,11 +7,29 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MS3DB
+namespace MS3DB.Pages
 {
 
 
 	public partial class admin_cashback_by_wallet
 	{
+
+		/// <summary>
+		/// cashbackForm control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlForm cashbackForm;
+
+		/// <summary>
+		/// getCashbackButton control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Button getCashbackButton;
 	}
 }

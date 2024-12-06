@@ -85,20 +85,32 @@
     <Content Include="admin-wallet-check.aspx" />
     <Content Include="admin-wallets.aspx" />
     <Content Include="app.js" />
-    <Content Include="customer-all-shops.aspx" />
+    <Content Include="customer-active-benefits.aspx" />
+    <Content Include="customer-active-plan-usage.aspx" />
+    <Content Include="customer-available-plans.aspx" />
+    <Content Include="customer-dashboard.aspx" />
+    <Content Include="customer-extra-amount.aspx" />
+    <Content Include="customer-get-cashback.aspx" />
+    <Content Include="customer-highest-voucher.aspx" />
+    <Content Include="customer-open-support-tickets.aspx" />
+    <Content Include="customer-recharge.aspx" />
+    <Content Include="customer-redeem-voucher.aspx" />
+    <Content Include="customer-remaining-amount.aspx" />
+    <Content Include="customer-renew-subscription.aspx" />
     <Content Include="customer-service-plans.aspx" />
     <Content Include="customer-shops-transactions.aspx" />
+    <Content Include="customer-shops.aspx" />
+    <Content Include="customer-subscriptions.aspx" />
     <Content Include="customer-technical-support.aspx" />
-    <Content Include="customer-top-10.aspx" />
-    <Content Include="customer-unsubscribed-plan.aspx" />
+    <Content Include="customer-top-payments.aspx" />
     <Content Include="customer-usage-benefits.aspx" />
-    <Content Include="customer-usage-details.html" />
+    <Content Include="customer-view-consumption.aspx" />
+    <Content Include="customer-wallet-cashback.aspx" />
     <Content Include="faq.aspx" />
     <Content Include="images\xcv.jpg" />
     <Content Include="images\xyz.jpg" />
     <Content Include="index.aspx" />
     <Content Include="contact.aspx" />
-    <Content Include="customer-dashboard.aspx" />
     <Content Include="customer-payments-vouchers.aspx" />
     <Content Include="login.aspx" />
     <Content Include="logout.aspx" />
@@ -225,12 +237,89 @@
     <Compile Include="admin-wallets.aspx.designer.cs">
       <DependentUpon>admin-wallets.aspx</DependentUpon>
     </Compile>
-    <Compile Include="customer-all-shops.aspx.cs">
-      <DependentUpon>customer-all-shops.aspx</DependentUpon>
+    <Compile Include="customer-active-benefits.aspx.cs">
+      <DependentUpon>customer-active-benefits.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="customer-all-shops.aspx.designer.cs">
-      <DependentUpon>customer-all-shops.aspx</DependentUpon>
+    <Compile Include="customer-active-benefits.aspx.designer.cs">
+      <DependentUpon>customer-active-benefits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-active-plan-usage.aspx.cs">
+      <DependentUpon>customer-active-plan-usage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-active-plan-usage.aspx.designer.cs">
+      <DependentUpon>customer-active-plan-usage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-available-plans.aspx.cs">
+      <DependentUpon>customer-available-plans.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-available-plans.aspx.designer.cs">
+      <DependentUpon>customer-available-plans.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-dashboard.aspx.cs">
+      <DependentUpon>customer-dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-dashboard.aspx.designer.cs">
+      <DependentUpon>customer-dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-extra-amount.aspx.cs">
+      <DependentUpon>customer-extra-amount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-extra-amount.aspx.designer.cs">
+      <DependentUpon>customer-extra-amount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-get-cashback.aspx.cs">
+      <DependentUpon>customer-get-cashback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-get-cashback.aspx.designer.cs">
+      <DependentUpon>customer-get-cashback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-highest-voucher.aspx.cs">
+      <DependentUpon>customer-highest-voucher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-highest-voucher.aspx.designer.cs">
+      <DependentUpon>customer-highest-voucher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-open-support-tickets.aspx.cs">
+      <DependentUpon>customer-open-support-tickets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-open-support-tickets.aspx.designer.cs">
+      <DependentUpon>customer-open-support-tickets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-recharge.aspx.cs">
+      <DependentUpon>customer-recharge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-recharge.aspx.designer.cs">
+      <DependentUpon>customer-recharge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-redeem-voucher.aspx.cs">
+      <DependentUpon>customer-redeem-voucher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-redeem-voucher.aspx.designer.cs">
+      <DependentUpon>customer-redeem-voucher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-remaining-amount.aspx.cs">
+      <DependentUpon>customer-remaining-amount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-remaining-amount.aspx.designer.cs">
+      <DependentUpon>customer-remaining-amount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-renew-subscription.aspx.cs">
+      <DependentUpon>customer-renew-subscription.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-renew-subscription.aspx.designer.cs">
+      <DependentUpon>customer-renew-subscription.aspx</DependentUpon>
     </Compile>
     <Compile Include="customer-service-plans.aspx.cs">
       <DependentUpon>customer-service-plans.aspx</DependentUpon>
@@ -246,6 +335,20 @@
     <Compile Include="customer-shops-transactions.aspx.designer.cs">
       <DependentUpon>customer-shops-transactions.aspx</DependentUpon>
     </Compile>
+    <Compile Include="customer-shops.aspx.cs">
+      <DependentUpon>customer-shops.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-shops.aspx.designer.cs">
+      <DependentUpon>customer-shops.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-subscriptions.aspx.cs">
+      <DependentUpon>customer-subscriptions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-subscriptions.aspx.designer.cs">
+      <DependentUpon>customer-subscriptions.aspx</DependentUpon>
+    </Compile>
     <Compile Include="customer-technical-support.aspx.cs">
       <DependentUpon>customer-technical-support.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -253,19 +356,12 @@
     <Compile Include="customer-technical-support.aspx.designer.cs">
       <DependentUpon>customer-technical-support.aspx</DependentUpon>
     </Compile>
-    <Compile Include="customer-top-10.aspx.cs">
-      <DependentUpon>customer-top-10.aspx</DependentUpon>
+    <Compile Include="customer-top-payments.aspx.cs">
+      <DependentUpon>customer-top-payments.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="customer-top-10.aspx.designer.cs">
-      <DependentUpon>customer-top-10.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="customer-unsubscribed-plan.aspx.cs">
-      <DependentUpon>customer-unsubscribed-plan.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="customer-unsubscribed-plan.aspx.designer.cs">
-      <DependentUpon>customer-unsubscribed-plan.aspx</DependentUpon>
+    <Compile Include="customer-top-payments.aspx.designer.cs">
+      <DependentUpon>customer-top-payments.aspx</DependentUpon>
     </Compile>
     <Compile Include="customer-usage-benefits.aspx.cs">
       <DependentUpon>customer-usage-benefits.aspx</DependentUpon>
@@ -273,6 +369,20 @@
     </Compile>
     <Compile Include="customer-usage-benefits.aspx.designer.cs">
       <DependentUpon>customer-usage-benefits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-view-consumption.aspx.cs">
+      <DependentUpon>customer-view-consumption.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-view-consumption.aspx.designer.cs">
+      <DependentUpon>customer-view-consumption.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-wallet-cashback.aspx.cs">
+      <DependentUpon>customer-wallet-cashback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-wallet-cashback.aspx.designer.cs">
+      <DependentUpon>customer-wallet-cashback.aspx</DependentUpon>
     </Compile>
     <Compile Include="faq.aspx.cs">
       <DependentUpon>faq.aspx</DependentUpon>
@@ -294,13 +404,6 @@
     </Compile>
     <Compile Include="contact.aspx.designer.cs">
       <DependentUpon>contact.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="customer-dashboard.aspx.cs">
-      <DependentUpon>customer-dashboard.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="customer-dashboard.aspx.designer.cs">
-      <DependentUpon>customer-dashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="customer-payments-vouchers.aspx.cs">
       <DependentUpon>customer-payments-vouchers.aspx</DependentUpon>

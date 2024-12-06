@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace MS3DB
 {
-	public partial class customer_dashboard : System.Web.UI.Page
+	public partial class customer_shops : System.Web.UI.Page
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{

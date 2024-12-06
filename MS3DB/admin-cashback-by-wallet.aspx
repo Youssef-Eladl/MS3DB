@@ -1,8 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="admin-cashback-by-wallet.aspx.cs" Inherits="MS3DB.admin_cashback_by_wallet" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="admin-cashback-by-wallet.aspx.cs" Inherits="MS3DB.Pages.admin_cashback_by_wallet" %>
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head runat="server">
     <meta charset="UTF-8">
     <title>Telecommunication - Cashback Amount</title>
     <link rel="stylesheet" href="styles.css">
@@ -63,15 +63,16 @@
 
     </style>
 </head>
-<body>
+<body runat="server">
 
     <!-- Header -->
     <header>
         <nav>
-            <a href="admin-dashboard.html" class="logo">Telecommunication</a>
+            <a href="admin-dashboard.aspx" class="logo">Telecommunication</a>
             <ul class="nav-links">
                 <!-- Navigation links -->
-                <li><a href="admin-dashboard.html">Dashboard</a></li>
+                <li><a href="admin-dashboard.aspx">Dashboard</a></li>
+                <!-- ... -->
             </ul>
         </nav>
     </header>
@@ -80,21 +81,21 @@
     <main>
         <section class="cashback-amount">
             <h1>View Cashback Amount</h1>
-            <form id="cashbackForm">
+            <form id="cashbackForm" runat="server">
                 <label for="walletID">Enter Wallet ID:</label><br>
-                <input type="number" id="walletID" name="walletID" min="1" required>
+                <asp:TextBox ID="walletID" runat="server" type="number" min="1" required="true"></asp:TextBox>
                 <br><br>
                 <label for="planID">Enter Plan ID:</label><br>
-                <input type="number" id="planID" name="planID" min="1" required>
+                <asp:TextBox ID="planID" runat="server" type="number" min="1" required="true"></asp:TextBox>
                 <br><br>
-                <button type="submit">Get Cashback Amount</button>
+                <asp:Button ID="getCashbackButton" runat="server" Text="Get Cashback Amount" OnClick="GetCashbackAmount" />
             </form>
 
-            <div class="result" id="result" style="display: none;">
-                <p id="cashbackAmount"></p>
+            <div class="result">
+                <asp:Label ID="resultLabel" runat="server" Text="" Visible="false"></asp:Label>
             </div>
-            <div class="error-message" id="errorMessage" style="display: none;">
-                Invalid input or no records found.
+            <div class="error-message">
+                <asp:Label ID="errorMessage" runat="server" Text="" Visible="false"></asp:Label>
             </div>
         </section>
     </main>
@@ -103,46 +104,5 @@
     <footer>
         <p>&copy; 2023 Telecommunication</p>
     </footer>
-
-    <!-- JavaScript for form handling -->
-    <script>
-        document.getElementById('cashbackForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-
-            const walletID = document.getElementById('walletID').value.trim();
-            const planID = document.getElementById('planID').value.trim();
-
-            // Simple validation
-            if (walletID === '' || planID === '' || walletID <= 0 || planID <= 0) {
-                document.getElementById('errorMessage').style.display = 'block';
-                document.getElementById('result').style.display = 'none';
-                return;
-            }
-
-            // Hide error message and show loading
-            document.getElementById('errorMessage').style.display = 'none';
-            document.getElementById('result').style.display = 'none';
-
-            // Send AJAX request to backend
-            fetch(`process-cashback-by-wallet.aspx?walletID=${encodeURIComponent(walletID)}&planID=${encodeURIComponent(planID)}`, {
-                method: 'GET'
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data.success) {
-                    document.getElementById('cashbackAmount').textContent = `Total Cashback Amount: ${data.totalCashbackAmount}`;
-                    document.getElementById('result').style.display = 'block';
-                } else {
-                    document.getElementById('errorMessage').style.display = 'block';
-                    document.getElementById('result').style.display = 'none';
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                document.getElementById('errorMessage').style.display = 'block';
-                document.getElementById('result').style.display = 'none';
-            });
-        });
-    </script>
 </body>
 </html>

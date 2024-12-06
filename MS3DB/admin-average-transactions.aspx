@@ -1,8 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="admin-average-transactions.aspx.cs" Inherits="MS3DB.admin_average_transactions" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="admin-average-transactions.aspx.cs" Inherits="MS3DB.Pages.admin_average_transactions" %>
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head runat="server">
     <meta charset="UTF-8">
     <title>Telecommunication - Average Transactions</title>
     <link rel="stylesheet" href="styles.css">
@@ -62,15 +62,15 @@
         }
     </style>
 </head>
-<body>
+<body runat="server">
 
     <!-- Header -->
     <header>
         <nav>
-            <a href="admin-dashboard.html" class="logo">Telecommunication</a>
+            <a href="admin-dashboard.aspx" class="logo">Telecommunication</a>
             <ul class="nav-links">
-                <li><a href="admin-dashboard.html">Dashboard</a></li>
-
+                <li><a href="admin-dashboard.aspx">Dashboard</a></li>
+                <!-- ... -->
             </ul>
         </nav>
     </header>
@@ -79,24 +79,24 @@
     <main>
         <section class="average-transactions">
             <h1>Average Sent Transaction Amounts</h1>
-            <form id="averageForm">
+            <form id="averageForm" runat="server">
                 <label for="walletID">Enter Wallet ID:</label><br>
-                <input type="number" id="walletID" name="walletID" min="1" required>
+                <asp:TextBox ID="walletID" runat="server" type="number" min="1" required="true"></asp:TextBox>
                 <br><br>
                 <label for="startDate">Start Date:</label><br>
-                <input type="date" id="startDate" name="startDate" required>
+                <asp:TextBox ID="startDate" runat="server" type="date" required="true"></asp:TextBox>
                 <br><br>
                 <label for="endDate">End Date:</label><br>
-                <input type="date" id="endDate" name="endDate" required>
+                <asp:TextBox ID="endDate" runat="server" type="date" required="true"></asp:TextBox>
                 <br><br>
-                <button type="submit">Get Average Amount</button>
+                <asp:Button ID="getAverageButton" runat="server" Text="Get Average Amount" OnClick="GetAverageAmount" />
             </form>
 
-            <div class="result" id="result" style="display: none;">
-                <p id="averageAmount"></p>
+            <div class="result">
+                <asp:Label ID="resultLabel" runat="server" Text="" Visible="false"></asp:Label>
             </div>
-            <div class="error-message" id="errorMessage" style="display: none;">
-                Invalid input or no records found.
+            <div class="error-message">
+                <asp:Label ID="errorMessage" runat="server" Text="" Visible="false"></asp:Label>
             </div>
         </section>
     </main>
@@ -105,47 +105,5 @@
     <footer>
         <p>&copy; 2023 Telecommunication</p>
     </footer>
-
-    <!-- JavaScript for form handling -->
-    <script>
-        document.getElementById('averageForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-
-            const walletID = document.getElementById('walletID').value.trim();
-            const startDate = document.getElementById('startDate').value;
-            const endDate = document.getElementById('endDate').value;
-
-            // Simple validation
-            if (walletID === '' || walletID <= 0 || startDate === '' || endDate === '') {
-                document.getElementById('errorMessage').style.display = 'block';
-                document.getElementById('result').style.display = 'none';
-                return;
-            }
-
-            // Hide error message and show loading
-            document.getElementById('errorMessage').style.display = 'none';
-            document.getElementById('result').style.display = 'none';
-
-            // Send AJAX request to backend
-            fetch(`process-average-transactions.aspx?walletID=${encodeURIComponent(walletID)}&startDate=${encodeURIComponent(startDate)}&endDate=${encodeURIComponent(endDate)}`, {
-                method: 'GET'
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data.success) {
-                    document.getElementById('averageAmount').textContent = `Average Sent Transaction Amount: ${data.averageAmount.toFixed(2)}`;
-                    document.getElementById('result').style.display = 'block';
-                } else {
-                    document.getElementById('errorMessage').style.display = 'block';
-                    document.getElementById('result').style.display = 'none';
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                document.getElementById('errorMessage').style.display = 'block';
-                document.getElementById('result').style.display = 'none';
-            });
-        });
-    </script>
 </body>
 </html>

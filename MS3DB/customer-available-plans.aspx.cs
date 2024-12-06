@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace MS3DB
 {
-	public partial class customer_top_10 : System.Web.UI.Page
+	public partial class customer_available_plans : System.Web.UI.Page
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{

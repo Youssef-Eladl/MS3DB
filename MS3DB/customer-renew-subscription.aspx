@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="customer-unsubscribed-plan.aspx.cs" Inherits="MS3DB.customer_unsubscribed_plan" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="customer-renew-subscription.aspx.cs" Inherits="MS3DB.customer_renew_subscription" %>
 
 <!DOCTYPE html>
 
