@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         /* Additional styles specific to Remove Benefits page */
-
         .remove-benefits {
             padding: 20px;
         }
@@ -78,68 +77,66 @@
         }
     </style>
 </head>
-<body>
-    
-  <!-- Header -->
-  <header>
-    <nav>
-      <a href="admin-dashboard.aspx" class="logo">Telecommunication</a>
-      <ul class="nav-links">
-        <!-- Navigation links -->
-        <li><a href="admin-dashboard.aspx">Dashboard</a></li>
-        <!-- ... -->
-        <li><a href="admin-support-tickets.aspx">Support Tickets</a></li>
-        <!-- ... -->
-      </ul>
-    </nav>
-  </header>
+<body runat="server">
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="admin-dashboard.aspx" class="logo">Telecommunication</a>
+            <ul class="nav-links">
+                <!-- Navigation links -->
+                <li><a href="admin-dashboard.aspx">Dashboard</a></li>
+                <li><a href="admin-support-tickets.aspx">Support Tickets</a></li>
+                <!-- ... -->
+            </ul>
+        </nav>
+    </header>
 
-   <!-- Main Content -->
-   <main>
-       <section class="remove-benefits">
-           <h1>Remove Benefits from Account</h1>
+    <!-- Main Content -->
+    <main>
+        <section class="remove-benefits">
+            <h1>Remove Benefits from Account</h1>
 
-           <!-- Form Container -->
-           <div class="form-container">
-               <form id="removeBenefitsForm" method="post" action="process-remove-benefits.aspx">
-                   <label for="mobileNo">Mobile Number:</label>
-                   <input type="text" id="mobileNo" name="mobileNo" pattern="\d{11}" title="Enter 11-digit mobile number" required>
+            <!-- Form Container -->
+            <div class="form-container">
+                <form id="removeBenefitsForm" method="post" runat="server" onsubmit="RemoveBenefits">
+                    <label for="mobileNo">Mobile Number:</label>
+                    <asp:TextBox ID="mobileNo" runat="server" pattern="\d{11}" title="Enter 11-digit mobile number" required="true"></asp:TextBox>
 
-                   <label for="planID">Plan ID:</label>
-                   <input type="number" id="planID" name="planID" min="1" required>
+                    <label for="planID">Plan ID:</label>
+                    <asp:TextBox ID="planID" runat="server" type="number" min="1" required="true"></asp:TextBox>
 
-                   <button type="submit">Remove Benefits</button>
-               </form>
-           </div>
+                    <asp:Button ID="submitButton" runat="server" Text="Remove Benefits" OnClick="RemoveBenefits" />
+                </form>
+            </div>
 
-           <!-- Success Message -->
-           <div class="message success" id="successMessage">
-               Benefits successfully removed from the account.
-           </div>
+            <!-- Success Message -->
+            <div class="message success" id="successMessage">
+                Benefits successfully removed from the account.
+            </div>
 
-           <!-- Error Message -->
-           <div class="message error" id="errorMessage">
-               Failed to remove benefits. Please check the inputs and try again.
-           </div>
-       </section>
-   </main>
+            <!-- Error Message -->
+            <div class="message error" id="errorMessage">
+                Failed to remove benefits. Please check the inputs and try again.
+            </div>
+        </section>
+    </main>
 
-   <!-- Footer -->
-   <footer>
-     <p>&copy; 2023 Telecommunication</p>
-   </footer>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Telecommunication</p>
+    </footer>
 
-   <!-- Optional JavaScript for Form Handling -->
-   <script>
-       // Example: Display success or error message based on query parameters
-       window.onload = function() {
-           const urlParams = new URLSearchParams(window.location.search);
-           if (urlParams.get('status') === 'success') {
-               document.getElementById('successMessage').style.display = 'block';
-           } else if (urlParams.get('status') === 'error') {
-               document.getElementById('errorMessage').style.display = 'block';
-           }
-       };
-   </script>
+    <!-- Optional JavaScript for Form Handling -->
+    <script>
+        // Example: Display success or error message based on query parameters
+        window.onload = function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('status') === 'success') {
+                document.getElementById('successMessage').style.display = 'block';
+            } else if (urlParams.get('status') === 'error') {
+                document.getElementById('errorMessage').style.display = 'block';
+            }
+        };
+    </script>
 </body>
 </html>

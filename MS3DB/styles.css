@@ -24,6 +24,7 @@ body, html {
   align-items: center;
   z-index: 1001; /* Higher than main header */
   transition: transform 0.3s ease-in-out;
+  color: #1caaab;
 }
 
 .top-nav.hidden {
@@ -76,17 +77,26 @@ header {
 }
 
 nav {
+    color: #1caaab;
+    padding: 19px;
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
+.top-nav .nav-wrapper .nav-link {
+    color: #ffffff; /* Sets text color to white */
+    text-decoration: none; /* Removes underline from links */
+    font-weight: bold; /* (Optional) Makes the text bold */
+    padding: 10px 15px; /* (Optional) Adds padding for better click area */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
 /* Add a colored underline under nav links on hover */
 nav ul.nav-links li a {
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.3s ease;
+    color: #fff;
 }
 
 nav ul.nav-links li a:hover {

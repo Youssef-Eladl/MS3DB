@@ -97,10 +97,9 @@
     <main>
         <section class="support-tickets">
             <h1>Resolved Support Tickets</h1>
-            <table id="supportTicketsTable">
+               <table id="resolvedTicketsTable">
                 <thead>
                     <tr>
-                        <th>Ticket ID</th>
                         <th>Mobile No</th>
                         <th>Issue Description</th>
                         <th>Priority Level</th>
@@ -108,15 +107,16 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Sample Data Row -->
-                    <tr>
-                        <td>101</td>
-                        <td>01234567890</td>
-                        <td>Unable to connect to service</td>
-                        <td>High</td>
-                        <td>Resolved</td>
-                    </tr>
-                    <!-- Additional Data Rows will be populated here -->
+                    <asp:Repeater ID="resolvedTicketsRepeater" runat="server">
+                        <ItemTemplate>
+                            <tr>
+                                <td><%# Eval("MobileNo") %></td>
+                                <td><%# Eval("IssueDescription") %></td>
+                                <td><%# Eval("PriorityLevel") %></td>
+                                <td><%# Eval("Status") %></td>
+                            </tr>
+                        </ItemTemplate>
+                    </asp:Repeater>
                 </tbody>
             </table>
         </section>

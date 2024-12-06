@@ -52,7 +52,7 @@
     <main>
         <section class="customer-profiles">
             <h2>Customer Profiles</h2>
-            <table id="customerTable">
+            <table id="customerProfilesTable">
                 <thead>
                     <tr>
                         <th>National ID</th>
@@ -70,7 +70,24 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Data will be populated here via JavaScript -->
+                    <asp:Repeater ID="customerProfilesRepeater" runat="server">
+                        <ItemTemplate>
+                            <tr>
+                                <td><%# Eval("NationalID") %></td>
+                                <td><%# Eval("FirstName") %></td>
+                                <td><%# Eval("LastName") %></td>
+                                <td><%# Eval("Email") %></td>
+                                <td><%# Eval("Address") %></td>
+                                <td><%# Eval("DateOfBirth") %></td>
+                                <td><%# Eval("MobileNo") %></td>
+                                <td><%# Eval("AccountType") %></td>
+                                <td><%# Eval("Status") %></td>
+                                <td><%# Eval("StartDate") %></td>
+                                <td><%# Eval("Balance") %></td>
+                                <td><%# Eval("Points") %></td>
+                            </tr>
+                        </ItemTemplate>
+                    </asp:Repeater>
                 </tbody>
             </table>
         </section>

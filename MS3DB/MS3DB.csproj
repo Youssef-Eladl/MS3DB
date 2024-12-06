@@ -67,16 +67,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin-account-transactions.aspx" />
+    <Content Include="admin-average-transactions.aspx" />
+    <Content Include="admin-cashback-by-wallet.aspx" />
+    <Content Include="admin-cashback-transactions.aspx" />
     <Content Include="admin-customer-profiles.aspx" />
     <Content Include="admin-dashboard.aspx" />
+    <Content Include="admin-eshops.aspx" />
     <Content Include="admin-payments.aspx" />
     <Content Include="admin-remove-benefits.aspx" />
     <Content Include="admin-service-plans.aspx" />
     <Content Include="admin-sms-offers.aspx" />
+    <Content Include="admin-physical-shop-vouchers.aspx" />
     <Content Include="admin-stores-vouchers.aspx" />
     <Content Include="admin-support-tickets.aspx" />
     <Content Include="admin-total-usage.aspx" />
+    <Content Include="admin-update-points.aspx" />
+    <Content Include="admin-wallet-check.aspx" />
     <Content Include="admin-wallets.aspx" />
+    <Content Include="app.js" />
     <Content Include="customer-service-plans.aspx" />
     <Content Include="customer-shops-transactions.aspx" />
     <Content Include="customer-technical-support.aspx" />
@@ -88,10 +97,40 @@
     <Content Include="contact.aspx" />
     <Content Include="customer-dashboard.aspx" />
     <Content Include="customer-payments-vouchers.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="logout.aspx" />
     <Content Include="styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin-account-transactions.aspx.cs">
+      <DependentUpon>admin-account-transactions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin-account-transactions.aspx.designer.cs">
+      <DependentUpon>admin-account-transactions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin-average-transactions.aspx.cs">
+      <DependentUpon>admin-average-transactions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin-average-transactions.aspx.designer.cs">
+      <DependentUpon>admin-average-transactions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin-cashback-by-wallet.aspx.cs">
+      <DependentUpon>admin-cashback-by-wallet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin-cashback-by-wallet.aspx.designer.cs">
+      <DependentUpon>admin-cashback-by-wallet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin-cashback-transactions.aspx.cs">
+      <DependentUpon>admin-cashback-transactions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin-cashback-transactions.aspx.designer.cs">
+      <DependentUpon>admin-cashback-transactions.aspx</DependentUpon>
+    </Compile>
     <Compile Include="admin-customer-profiles.aspx.cs">
       <DependentUpon>admin-customer-profiles.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -105,6 +144,13 @@
     </Compile>
     <Compile Include="admin-dashboard.aspx.designer.cs">
       <DependentUpon>admin-dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin-eshops.aspx.cs">
+      <DependentUpon>admin-eshops.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin-eshops.aspx.designer.cs">
+      <DependentUpon>admin-eshops.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin-payments.aspx.cs">
       <DependentUpon>admin-payments.aspx</DependentUpon>
@@ -134,6 +180,13 @@
     <Compile Include="admin-sms-offers.aspx.designer.cs">
       <DependentUpon>admin-sms-offers.aspx</DependentUpon>
     </Compile>
+    <Compile Include="admin-physical-shop-vouchers.aspx.cs">
+      <DependentUpon>admin-physical-shop-vouchers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin-physical-shop-vouchers.aspx.designer.cs">
+      <DependentUpon>admin-physical-shop-vouchers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="admin-stores-vouchers.aspx.cs">
       <DependentUpon>admin-stores-vouchers.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -154,6 +207,20 @@
     </Compile>
     <Compile Include="admin-total-usage.aspx.designer.cs">
       <DependentUpon>admin-total-usage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin-update-points.aspx.cs">
+      <DependentUpon>admin-update-points.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin-update-points.aspx.designer.cs">
+      <DependentUpon>admin-update-points.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin-wallet-check.aspx.cs">
+      <DependentUpon>admin-wallet-check.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin-wallet-check.aspx.designer.cs">
+      <DependentUpon>admin-wallet-check.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin-wallets.aspx.cs">
       <DependentUpon>admin-wallets.aspx</DependentUpon>
@@ -224,6 +291,20 @@
     </Compile>
     <Compile Include="customer-payments-vouchers.aspx.designer.cs">
       <DependentUpon>customer-payments-vouchers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="objects\ServicePlan.cs" />
     <Compile Include="objects\ServicePlanonly.cs" />

@@ -15,6 +15,42 @@ namespace MS3DB.Pages
 	{
 
 		/// <summary>
+		/// filterForm control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlForm filterForm;
+
+		/// <summary>
+		/// planId control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.TextBox planId;
+
+		/// <summary>
+		/// inputDate control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.TextBox inputDate;
+
+		/// <summary>
+		/// filterButton control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Button filterButton;
+
+		/// <summary>
 		/// servicePlansRepeater control.
 		/// </summary>
 		/// <remarks>
@@ -22,5 +58,14 @@ namespace MS3DB.Pages
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
 		protected global::System.Web.UI.WebControls.Repeater servicePlansRepeater;
+
+		/// <summary>
+		/// usageDataRepeater control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Repeater usageDataRepeater;
 	}
 }

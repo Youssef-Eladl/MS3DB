@@ -3,56 +3,164 @@
   "WorkspaceRootPath": "C:\\Users\\youss\\source\\repos\\MS3DB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\customer-service-plans.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-service-plans.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\admin-wallet-check.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-wallet-check.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\customer-service-plans.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-service-plans.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\admin-update-points.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-update-points.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\admin-service-plans.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-service-plans.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\admin-stores-vouchers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-stores-vouchers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\admin-service-plans.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-service-plans.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\admin-eshops.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-eshops.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\objects\\serviceplanonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\objects\\serviceplanonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\admin-cashback-transactions.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-cashback-transactions.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\customer-service-plans.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-service-plans.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\admin-cashback-by-wallet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-cashback-by-wallet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\objects\\serviceplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\objects\\serviceplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\admin-average-transactions.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-average-transactions.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\customer-shops-transactions.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-shops-transactions.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\admin-account-transactions.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-account-transactions.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\customer-technical-support.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-technical-support.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\faq.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\faq.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\customer-usage-benefits.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\customer-dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\admin-dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\login.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\admin-physical-shop-vouchers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-physical-shop-vouchers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\admin-support-tickets.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-support-tickets.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\admin-wallets.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-wallets.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\admin-wallets.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-wallets.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\admin-remove-benefits.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-remove-benefits.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\admin-remove-benefits.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-remove-benefits.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\admin-sms-offers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-sms-offers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\admin-sms-offers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-sms-offers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\admin-service-plans.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-service-plans.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\admin-service-plans.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-service-plans.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\admin-support-tickets.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-support-tickets.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\admin-physical-shop-vouchers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-physical-shop-vouchers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\admin-customer-profiles.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-customer-profiles.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\admin-customer-profiles.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\admin-customer-profiles.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\customer-service-plans.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-service-plans.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\customer-service-plans.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-service-plans.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\customer-usage-benefits.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-usage-benefits.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\youss\\source\\repos\\ms3db\\ms3db\\faq.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\faq.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\customer-shops-transactions.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-shops-transactions.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\customer-technical-support.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-technical-support.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\objects\\serviceplanonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\objects\\serviceplanonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\customer-service-plans.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-service-plans.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\youss\\source\\repos\\MS3DB\\ms3db\\objects\\serviceplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\objects\\serviceplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,47 +170,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 262,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ServicePlanonly.cs",
-              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\objects\\ServicePlanonly.cs",
-              "RelativeDocumentMoniker": "MS3DB\\objects\\ServicePlanonly.cs",
-              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\objects\\ServicePlanonly.cs",
-              "RelativeToolTip": "MS3DB\\objects\\ServicePlanonly.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T15:06:32.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "customer-service-plans.aspx",
-              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-service-plans.aspx",
-              "RelativeDocumentMoniker": "MS3DB\\customer-service-plans.aspx",
-              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-service-plans.aspx",
-              "RelativeToolTip": "MS3DB\\customer-service-plans.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-06T14:59:45.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "customer-service-plans.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-service-plans.aspx.cs",
-              "RelativeDocumentMoniker": "MS3DB\\customer-service-plans.aspx.cs",
-              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-service-plans.aspx.cs",
-              "RelativeToolTip": "MS3DB\\customer-service-plans.aspx.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAD4vzMAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T14:59:35.373Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -113,111 +182,200 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "admin-service-plans.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-service-plans.aspx.cs",
-              "RelativeDocumentMoniker": "MS3DB\\admin-service-plans.aspx.cs",
-              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-service-plans.aspx.cs",
-              "RelativeToolTip": "MS3DB\\admin-service-plans.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T14:22:26.182Z",
+              "DocumentIndex": 0,
+              "Title": "admin-wallet-check.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-wallet-check.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\admin-wallet-check.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-wallet-check.aspx",
+              "RelativeToolTip": "MS3DB\\admin-wallet-check.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T19:26:16.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "admin-update-points.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-update-points.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\admin-update-points.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-update-points.aspx",
+              "RelativeToolTip": "MS3DB\\admin-update-points.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T19:25:52.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "admin-service-plans.aspx",
-              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-service-plans.aspx",
-              "RelativeDocumentMoniker": "MS3DB\\admin-service-plans.aspx",
-              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-service-plans.aspx",
-              "RelativeToolTip": "MS3DB\\admin-service-plans.aspx",
+              "Title": "admin-stores-vouchers.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-stores-vouchers.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\admin-stores-vouchers.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-stores-vouchers.aspx",
+              "RelativeToolTip": "MS3DB\\admin-stores-vouchers.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-06T14:16:56.746Z",
+              "WhenOpened": "2024-12-06T19:25:38.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "admin-eshops.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-eshops.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\admin-eshops.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-eshops.aspx",
+              "RelativeToolTip": "MS3DB\\admin-eshops.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T19:25:10.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "admin-cashback-transactions.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-cashback-transactions.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\admin-cashback-transactions.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-cashback-transactions.aspx",
+              "RelativeToolTip": "MS3DB\\admin-cashback-transactions.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T19:24:45.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "customer-service-plans.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-service-plans.aspx.designer.cs",
-              "RelativeDocumentMoniker": "MS3DB\\customer-service-plans.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-service-plans.aspx.designer.cs",
-              "RelativeToolTip": "MS3DB\\customer-service-plans.aspx.designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T15:04:29.136Z",
+              "Title": "admin-cashback-by-wallet.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-cashback-by-wallet.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\admin-cashback-by-wallet.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-cashback-by-wallet.aspx",
+              "RelativeToolTip": "MS3DB\\admin-cashback-by-wallet.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T19:24:23.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ServicePlan.cs",
-              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\objects\\ServicePlan.cs",
-              "RelativeDocumentMoniker": "MS3DB\\objects\\ServicePlan.cs",
-              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\objects\\ServicePlan.cs",
-              "RelativeToolTip": "MS3DB\\objects\\ServicePlan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T14:26:42.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\Web.config",
-              "RelativeDocumentMoniker": "MS3DB\\Web.config",
-              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\Web.config",
-              "RelativeToolTip": "MS3DB\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-06T14:15:32.738Z",
+              "Title": "admin-average-transactions.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-average-transactions.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\admin-average-transactions.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-average-transactions.aspx",
+              "RelativeToolTip": "MS3DB\\admin-average-transactions.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T19:24:08.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "customer-shops-transactions.aspx",
-              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-shops-transactions.aspx",
-              "RelativeDocumentMoniker": "MS3DB\\customer-shops-transactions.aspx",
-              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-shops-transactions.aspx",
-              "RelativeToolTip": "MS3DB\\customer-shops-transactions.aspx",
+              "Title": "admin-account-transactions.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-account-transactions.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\admin-account-transactions.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-account-transactions.aspx",
+              "RelativeToolTip": "MS3DB\\admin-account-transactions.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-06T14:06:08.727Z",
+              "WhenOpened": "2024-12-06T19:23:39.379Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "customer-technical-support.aspx",
-              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-technical-support.aspx",
-              "RelativeDocumentMoniker": "MS3DB\\customer-technical-support.aspx",
-              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-technical-support.aspx",
-              "RelativeToolTip": "MS3DB\\customer-technical-support.aspx",
+              "Title": "customer-dashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-dashboard.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\customer-dashboard.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-dashboard.aspx",
+              "RelativeToolTip": "MS3DB\\customer-dashboard.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-06T14:06:08.795Z",
+              "WhenOpened": "2024-12-06T19:20:54.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "customer-usage-benefits.aspx",
-              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-usage-benefits.aspx",
-              "RelativeDocumentMoniker": "MS3DB\\customer-usage-benefits.aspx",
-              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-usage-benefits.aspx",
-              "RelativeToolTip": "MS3DB\\customer-usage-benefits.aspx",
+              "Title": "admin-dashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-dashboard.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\admin-dashboard.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-dashboard.aspx",
+              "RelativeToolTip": "MS3DB\\admin-dashboard.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-06T14:06:08.947Z",
+              "WhenOpened": "2024-12-06T19:07:56.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "admin-physical-shop-vouchers.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-physical-shop-vouchers.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\admin-physical-shop-vouchers.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-physical-shop-vouchers.aspx",
+              "RelativeToolTip": "MS3DB\\admin-physical-shop-vouchers.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T17:43:47.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "login.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\login.aspx.designer.cs",
+              "RelativeDocumentMoniker": "MS3DB\\login.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\login.aspx.designer.cs",
+              "RelativeToolTip": "MS3DB\\login.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T16:08:41.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "index.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\index.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\index.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\index.aspx",
+              "RelativeToolTip": "MS3DB\\index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T13:49:44.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "admin-remove-benefits.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-remove-benefits.aspx.cs",
+              "RelativeDocumentMoniker": "MS3DB\\admin-remove-benefits.aspx.cs",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-remove-benefits.aspx.cs",
+              "RelativeToolTip": "MS3DB\\admin-remove-benefits.aspx.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwC8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T18:46:35.21Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "login.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\login.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\login.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\login.aspx",
+              "RelativeToolTip": "MS3DB\\login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T15:52:21.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "faq.aspx",
               "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\faq.aspx",
               "RelativeDocumentMoniker": "MS3DB\\faq.aspx",
@@ -230,16 +388,293 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "index.aspx",
-              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\index.aspx",
-              "RelativeDocumentMoniker": "MS3DB\\index.aspx",
-              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\index.aspx",
-              "RelativeToolTip": "MS3DB\\index.aspx",
+              "DocumentIndex": 21,
+              "Title": "admin-remove-benefits.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-remove-benefits.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\admin-remove-benefits.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-remove-benefits.aspx",
+              "RelativeToolTip": "MS3DB\\admin-remove-benefits.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-06T13:49:44.555Z",
+              "WhenOpened": "2024-12-06T18:46:40.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "logout.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\logout.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\logout.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\logout.aspx",
+              "RelativeToolTip": "MS3DB\\logout.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T15:52:45.03Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "admin-wallets.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-wallets.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\admin-wallets.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-wallets.aspx",
+              "RelativeToolTip": "MS3DB\\admin-wallets.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T19:03:17.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "admin-wallets.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-wallets.aspx.cs",
+              "RelativeDocumentMoniker": "MS3DB\\admin-wallets.aspx.cs",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-wallets.aspx.cs",
+              "RelativeToolTip": "MS3DB\\admin-wallets.aspx.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:04:28.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "admin-support-tickets.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-support-tickets.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\admin-support-tickets.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-support-tickets.aspx",
+              "RelativeToolTip": "MS3DB\\admin-support-tickets.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T17:55:27.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "admin-sms-offers.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-sms-offers.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\admin-sms-offers.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-sms-offers.aspx",
+              "RelativeToolTip": "MS3DB\\admin-sms-offers.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T18:32:06.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "admin-sms-offers.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-sms-offers.aspx.cs",
+              "RelativeDocumentMoniker": "MS3DB\\admin-sms-offers.aspx.cs",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-sms-offers.aspx.cs",
+              "RelativeToolTip": "MS3DB\\admin-sms-offers.aspx.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T18:37:12.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\login.aspx.cs",
+              "RelativeDocumentMoniker": "MS3DB\\login.aspx.cs",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\login.aspx.cs",
+              "RelativeToolTip": "MS3DB\\login.aspx.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAIwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T16:04:35.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "admin-support-tickets.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-support-tickets.aspx.cs",
+              "RelativeDocumentMoniker": "MS3DB\\admin-support-tickets.aspx.cs",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-support-tickets.aspx.cs",
+              "RelativeToolTip": "MS3DB\\admin-support-tickets.aspx.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T17:55:13.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "admin-physical-shop-vouchers.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-physical-shop-vouchers.aspx.cs",
+              "RelativeDocumentMoniker": "MS3DB\\admin-physical-shop-vouchers.aspx.cs",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-physical-shop-vouchers.aspx.cs",
+              "RelativeToolTip": "MS3DB\\admin-physical-shop-vouchers.aspx.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T17:43:40.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "admin-service-plans.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-service-plans.aspx.cs",
+              "RelativeDocumentMoniker": "MS3DB\\admin-service-plans.aspx.cs",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-service-plans.aspx.cs",
+              "RelativeToolTip": "MS3DB\\admin-service-plans.aspx.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwF4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T14:22:26.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "admin-service-plans.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-service-plans.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\admin-service-plans.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-service-plans.aspx",
+              "RelativeToolTip": "MS3DB\\admin-service-plans.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T14:16:56.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "admin-customer-profiles.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-customer-profiles.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\admin-customer-profiles.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-customer-profiles.aspx",
+              "RelativeToolTip": "MS3DB\\admin-customer-profiles.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T17:23:35.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "admin-customer-profiles.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-customer-profiles.aspx.cs",
+              "RelativeDocumentMoniker": "MS3DB\\admin-customer-profiles.aspx.cs",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\admin-customer-profiles.aspx.cs",
+              "RelativeToolTip": "MS3DB\\admin-customer-profiles.aspx.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwDEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T17:15:00.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "customer-service-plans.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-service-plans.aspx.cs",
+              "RelativeDocumentMoniker": "MS3DB\\customer-service-plans.aspx.cs",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-service-plans.aspx.cs",
+              "RelativeToolTip": "MS3DB\\customer-service-plans.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T14:59:35.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\Web.config",
+              "RelativeDocumentMoniker": "MS3DB\\Web.config",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\Web.config",
+              "RelativeToolTip": "MS3DB\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-06T14:15:32.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "customer-service-plans.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-service-plans.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\customer-service-plans.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-service-plans.aspx",
+              "RelativeToolTip": "MS3DB\\customer-service-plans.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T14:59:45.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\app.js",
+              "RelativeDocumentMoniker": "MS3DB\\app.js",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\app.js",
+              "RelativeToolTip": "MS3DB\\app.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-06T15:57:52.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "customer-usage-benefits.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-usage-benefits.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\customer-usage-benefits.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-usage-benefits.aspx",
+              "RelativeToolTip": "MS3DB\\customer-usage-benefits.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T14:06:08.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "customer-technical-support.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-technical-support.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\customer-technical-support.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-technical-support.aspx",
+              "RelativeToolTip": "MS3DB\\customer-technical-support.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T14:06:08.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "customer-shops-transactions.aspx",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-shops-transactions.aspx",
+              "RelativeDocumentMoniker": "MS3DB\\customer-shops-transactions.aspx",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-shops-transactions.aspx",
+              "RelativeToolTip": "MS3DB\\customer-shops-transactions.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-06T14:06:08.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "customer-service-plans.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-service-plans.aspx.designer.cs",
+              "RelativeDocumentMoniker": "MS3DB\\customer-service-plans.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\customer-service-plans.aspx.designer.cs",
+              "RelativeToolTip": "MS3DB\\customer-service-plans.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:04:29.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ServicePlanonly.cs",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\objects\\ServicePlanonly.cs",
+              "RelativeDocumentMoniker": "MS3DB\\objects\\ServicePlanonly.cs",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\objects\\ServicePlanonly.cs",
+              "RelativeToolTip": "MS3DB\\objects\\ServicePlanonly.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T15:06:32.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ServicePlan.cs",
+              "DocumentMoniker": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\objects\\ServicePlan.cs",
+              "RelativeDocumentMoniker": "MS3DB\\objects\\ServicePlan.cs",
+              "ToolTip": "C:\\Users\\youss\\source\\repos\\MS3DB\\MS3DB\\objects\\ServicePlan.cs",
+              "RelativeToolTip": "MS3DB\\objects\\ServicePlan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T14:26:42.009Z"
             }
           ]
         }

@@ -13,5 +13,41 @@ namespace MS3DB.Pages
 
 	public partial class admin_remove_benefits
 	{
+
+		/// <summary>
+		/// removeBenefitsForm control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.HtmlControls.HtmlForm removeBenefitsForm;
+
+		/// <summary>
+		/// mobileNo control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.TextBox mobileNo;
+
+		/// <summary>
+		/// planID control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.TextBox planID;
+
+		/// <summary>
+		/// submitButton control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Button submitButton;
 	}
 }

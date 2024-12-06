@@ -1,6 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="faq.aspx.cs" Inherits="MS3DB.Pages.faq" %>
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -11,12 +9,12 @@
   <!-- Header -->
   <header>
     <nav>
-      <a href="index.aspx" class="logo">Telecommunication</a>
+      <a href="index.html" class="logo">Telecommunication</a>
       <ul class="nav-links">
-        <li><a href="index.aspx">Home</a></li>
-        <li><a href="faq.aspx">FAQ</a></li>
-        <li><a href="contact.aspx">Contact Us</a></li>
-        <li><a href="login.aspx">Login</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="login.html">Login</a></li>
       </ul>
     </nav>
   </header>

@@ -2,23 +2,20 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head runat="server">
     <meta charset="UTF-8">
     <title>Telecommunication - SMS Offers</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         /* Additional styles for SMS Offers page */
-
         .sms-offers {
             padding: 20px;
         }
-
         .sms-offers h1 {
             text-align: center;
             margin-bottom: 20px;
             color: #333;
         }
-
         .filter-form {
             max-width: 500px;
             margin: 0 auto 20px auto;
@@ -27,13 +24,11 @@
             border: 1px solid #ddd;
             border-radius: 5px;
         }
-
         .filter-form label {
             display: block;
             margin-bottom: 5px;
             font-weight: bold;
         }
-
         .filter-form input {
             width: 100%;
             padding: 8px;
@@ -41,7 +36,6 @@
             border: 1px solid #ccc;
             border-radius: 4px;
         }
-
         .filter-form button {
             padding: 10px 20px;
             background-color: #007bff;
@@ -50,11 +44,9 @@
             border-radius: 4px;
             cursor: pointer;
         }
-
         .filter-form button:hover {
             background-color: #0056b3;
         }
-
         /* Error Message Styles */
         .error-message {
             max-width: 500px;
@@ -67,46 +59,37 @@
             text-align: center;
             display: none; /* Hidden by default */
         }
-
         table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
         }
-
         th, td {
             padding: 12px;
             border: 1px solid #ddd;
             text-align: left;
         }
-
         th {
             background-color: #f2f2f2;
         }
-
         tr:hover {background-color: #f5f5f5;}
-
         /* Responsive Design */
         @media (max-width: 768px) {
             table, thead, tbody, th, td, tr { 
                 display: block; 
             }
-
             th {
                 position: absolute;
                 top: -9999px;
                 left: -9999px;
             }
-
             tr { border: 1px solid #ccc; margin-bottom: 5px; }
-
             td { 
                 border: none;
                 border-bottom: 1px solid #eee; 
                 position: relative;
                 padding-left: 50%; 
             }
-
             td:before { 
                 position: absolute;
                 top: 12px;
@@ -116,7 +99,6 @@
                 white-space: nowrap;
                 font-weight: bold;
             }
-
             /* Label the data */
             td:nth-of-type(1):before { content: "Offer ID"; }
             td:nth-of-type(2):before { content: "Benefit Description"; }
@@ -128,21 +110,19 @@
         }
     </style>
 </head>
-<body>
-
-  <!-- Header -->
-  <header>
-    <nav>
-      <a href="admin-dashboard.aspx" class="logo">Telecommunication</a>
-      <ul class="nav-links">
-        <!-- Navigation links -->
-        <li><a href="admin-dashboard.aspx">Dashboard</a></li>
-        <!-- ... -->
-        <li><a href="admin-sms-offers.aspx">SMS Offers</a></li>
-        <!-- ... -->
-      </ul>
-    </nav>
-  </header>
+<body runat="server">
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="admin-dashboard.aspx" class="logo">Telecommunication</a>
+            <ul class="nav-links">
+                <!-- Navigation links -->
+                <li><a href="admin-dashboard.aspx">Dashboard</a></li>
+                <li><a href="admin-sms-offers.aspx">SMS Offers</a></li>
+                <!-- ... -->
+            </ul>
+        </nav>
+    </header>
 
     <!-- Main Content -->
     <main>
@@ -151,16 +131,16 @@
 
             <!-- Filter Form -->
             <div class="filter-form">
-                <form id="smsOffersForm" method="post" action="#">
+                <form id="smsOffersForm" method="post" runat="server">
                     <label for="mobileNo">Mobile Number:</label>
-                    <input type="text" id="mobileNo" name="mobileNo" pattern="\d{11}" title="Enter 11-digit mobile number" required>
+                    <asp:TextBox ID="mobileNo" runat="server" MaxLength="11" required="true"></asp:TextBox>
 
-                    <button type="submit">View SMS Offers</button>
+                    <asp:Button ID="filterButton" runat="server" Text="View SMS Offers" OnClick="ViewSMSOffers" />
                 </form>
             </div>
 
             <!-- Error Message -->
-            <div class="error-message" id="errorMessage">
+            <div class="error-message" id="errorMessage" runat="server">
                 No SMS offers found for the provided account.
             </div>
 
@@ -177,17 +157,19 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- Data Rows will be populated here -->
-                    <tr>
-                        <td>1</td>
-                        <td>Birthday Bonus</td>
-                        <td>100</td>
-                        <td>1GB</td>
-                        <td>200 minutes</td>
-                        <td>2024-12-31</td>
-                        <td>Active</td>
-                    </tr>
-                    <!-- Additional Data Rows -->
+                    <asp:Repeater ID="smsOffersRepeater" runat="server">
+                        <ItemTemplate>
+                            <tr>
+                                <td><%# Eval("OfferID") %></td>
+                                <td><%# Eval("BenefitDescription") %></td>
+                                <td><%# Eval("SMSOffered") %></td>
+                                <td><%# Eval("InternetOffered") %></td>
+                                <td><%# Eval("MinutesOffered") %></td>
+                                <td><%# Eval("ValidityDate") %></td>
+                                <td><%# Eval("Status") %></td>
+                            </tr>
+                        </ItemTemplate>
+                    </asp:Repeater>
                 </tbody>
             </table>
         </section>
@@ -197,54 +179,5 @@
     <footer>
         <p>&copy; 2023 Telecommunication</p>
     </footer>
-
-    <!-- Optional JavaScript for Form Handling -->
-    <script>
-        document.getElementById('smsOffersForm').addEventListener('submit', function(event) {
-            event.preventDefault(); // Prevent form submission
-
-            const mobileNo = document.getElementById('mobileNo').value;
-
-            // Make an AJAX request to the backend (replace with actual endpoint)
-            fetch('process-list-sms-offers.aspx', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded',
-                },
-                body: `mobileNo=${encodeURIComponent(mobileNo)}`
-            })
-            .then(response => response.json())
-            .then(data => {
-                const tableBody = document.querySelector('#smsOffersTable tbody');
-                tableBody.innerHTML = ''; // Clear existing data
-
-                if (data.length > 0) {
-                    data.forEach(offer => {
-                        const row = document.createElement('tr');
-
-                        row.innerHTML = `
-                            <td>${offer.offerID}</td>
-                            <td>${offer.BenefitDescription}</td>
-                            <td>${offer.SMS_offered}</td>
-                            <td>${offer.internet_offered}</td>
-                            <td>${offer.minutes_offered}</td>
-                            <td>${offer.validity_date}</td>
-                            <td>${offer.status}</td>
-                        `;
-
-                        tableBody.appendChild(row);
-                    });
-
-                    document.getElementById('errorMessage').style.display = 'none';
-                } else {
-                    document.getElementById('errorMessage').style.display = 'block';
-                }
-            })
-            .catch(error => {
-                console.error('Error fetching SMS offers:', error);
-                document.getElementById('errorMessage').style.display = 'block';
-            });
-        });
-    </script>
 </body>
 </html>

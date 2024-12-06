@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace MS3DB.Pages
+namespace MS3DB
 {
 	public partial class admin_stores_vouchers : System.Web.UI.Page
 	{

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="admin-stores-vouchers.aspx.cs" Inherits="MS3DB.Pages.admin_stores_vouchers" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="admin-stores-vouchers.aspx.cs" Inherits="MS3DB.admin_stores_vouchers" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -83,12 +83,10 @@
  <!-- Header -->
  <header>
   <nav>
-    <a href="admin-dashboard.aspx" class="logo">Telecommunication</a>
+    <a href="admin-dashboard.html" class="logo">Telecommunication</a>
     <ul class="nav-links">
       <!-- Navigation links -->
-      <li><a href="admin-dashboard.aspx">Dashboard</a></li>
-      <!-- ... -->
-      <li><a href="admin-payments.aspx">Payments</a></li>
+      <li><a href="admin-dashboard.html">Dashboard</a></li>
       <!-- ... -->
     </ul>
   </nav>
