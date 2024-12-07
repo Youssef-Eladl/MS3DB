@@ -97,10 +97,13 @@
     <Content Include="admin-support-tickets.aspx" />
     <Content Include="admin-total-usage.aspx" />
     <Content Include="admin-wallets.aspx" />
+    <Content Include="customer-CashbackTransactions.aspx" />
+    <Content Include="customer-Extra-Amount.aspx" />
     <Content Include="customer-service-plans.aspx" />
     <Content Include="customer-shops-transactions.aspx" />
     <Content Include="customer-technical-support.aspx" />
-    <Content Include="customer-usage-benefits.aspx" />
+    <Content Include="customer-all-benefits.aspx" />
+    <Content Include="customer-top-payment.aspx" />
     <Content Include="customer-usage-details.aspx" />
     <Content Include="faq.aspx" />
     <Content Include="images\xcv.jpg" />
@@ -183,6 +186,20 @@
     <Compile Include="admin-wallets.aspx.designer.cs">
       <DependentUpon>admin-wallets.aspx</DependentUpon>
     </Compile>
+    <Compile Include="customer-CashbackTransactions.aspx.cs">
+      <DependentUpon>customer-CashbackTransactions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-CashbackTransactions.aspx.designer.cs">
+      <DependentUpon>customer-CashbackTransactions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-Extra-Amount.aspx.cs">
+      <DependentUpon>customer-Extra-Amount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-Extra-Amount.aspx.designer.cs">
+      <DependentUpon>customer-Extra-Amount.aspx</DependentUpon>
+    </Compile>
     <Compile Include="customer-service-plans.aspx.cs">
       <DependentUpon>customer-service-plans.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -204,12 +221,19 @@
     <Compile Include="customer-technical-support.aspx.designer.cs">
       <DependentUpon>customer-technical-support.aspx</DependentUpon>
     </Compile>
-    <Compile Include="customer-usage-benefits.aspx.cs">
-      <DependentUpon>customer-usage-benefits.aspx</DependentUpon>
+    <Compile Include="customer-all-benefits.aspx.cs">
+      <DependentUpon>customer-all-benefits.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="customer-usage-benefits.aspx.designer.cs">
-      <DependentUpon>customer-usage-benefits.aspx</DependentUpon>
+    <Compile Include="customer-all-benefits.aspx.designer.cs">
+      <DependentUpon>customer-all-benefits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customer-top-payment.aspx.cs">
+      <DependentUpon>customer-top-payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customer-top-payment.aspx.designer.cs">
+      <DependentUpon>customer-top-payment.aspx</DependentUpon>
     </Compile>
     <Compile Include="customer-usage-details.aspx.cs">
       <DependentUpon>customer-usage-details.aspx</DependentUpon>
@@ -261,6 +285,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="txtAccountID.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -11,53 +11,35 @@ namespace MS3DB.Pages
 {
 
 
-    public partial class HighestVoucher
+    public partial class TopPayments
     {
 
         /// <summary>
-        /// voucherForm control.
+        /// topPaymentsForm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm voucherForm;
+        protected global::System.Web.UI.HtmlControls.HtmlForm topPaymentsForm;
 
         /// <summary>
-        /// txtAccountID control.
+        /// btnFetchTopPayments control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAccountID;
+        protected global::System.Web.UI.WebControls.Button btnFetchTopPayments;
 
         /// <summary>
-        /// btnFetchHighestVoucher control.
+        /// topPaymentsRepeater control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnFetchHighestVoucher;
-
-        /// <summary>
-        /// lblVoucherID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblVoucherID;
-
-        /// <summary>
-        /// lblVoucherValue control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblVoucherValue;
+        protected global::System.Web.UI.WebControls.Repeater topPaymentsRepeater;
 
         /// <summary>
         /// lblMessage control.

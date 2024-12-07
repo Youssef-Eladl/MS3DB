@@ -116,3 +116,5 @@ C:\Users\Adham\Documents\GitHub\MS3DB\MS3DB\obj\Debug\MS3DB.csproj.CoreCompileIn
 C:\Users\Adham\Documents\GitHub\MS3DB\MS3DB\obj\Debug\MS3DB.csproj.Up2Date
 C:\Users\Adham\Documents\GitHub\MS3DB\MS3DB\obj\Debug\MS3DB.dll
 C:\Users\Adham\Documents\GitHub\MS3DB\MS3DB\obj\Debug\MS3DB.pdb
+C:\Users\Adham\Documents\GitHub\MS3DB\MS3DB\obj\Debug\MS3DB.Properties.Resources.resources
+C:\Users\Adham\Documents\GitHub\MS3DB\MS3DB\obj\Debug\MS3DB.csproj.GenerateResource.cache

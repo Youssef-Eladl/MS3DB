@@ -11,71 +11,44 @@ namespace MS3DB.Pages
 {
 
 
-    public partial class RemainingAmount
+    public partial class CashbackTransactions
     {
 
         /// <summary>
-        /// remainingAmountForm control.
+        /// transactionsForm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm remainingAmountForm;
+        protected global::System.Web.UI.HtmlControls.HtmlForm transactionsForm;
 
         /// <summary>
-        /// txtAccountID control.
+        /// txtNationalID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAccountID;
+        protected global::System.Web.UI.WebControls.TextBox txtNationalID;
 
         /// <summary>
-        /// txtPlanID control.
+        /// btnFetchTransactions control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPlanID;
+        protected global::System.Web.UI.WebControls.Button btnFetchTransactions;
 
         /// <summary>
-        /// btnFetchRemainingAmount control.
+        /// transactionsRepeater control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnFetchRemainingAmount;
-
-        /// <summary>
-        /// lblPaymentID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPaymentID;
-
-        /// <summary>
-        /// lblRemainingAmount control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblRemainingAmount;
-
-        /// <summary>
-        /// lblPaymentDate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPaymentDate;
+        protected global::System.Web.UI.WebControls.Repeater transactionsRepeater;
 
         /// <summary>
         /// lblMessage control.

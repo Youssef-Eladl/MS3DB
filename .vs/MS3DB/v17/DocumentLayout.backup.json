@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\adham\\documents\\github\\ms3db\\ms3db\\customer-technical-support.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-technical-support.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\MS3DB\\customer-service-plans.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:MS3DB\\customer-service-plans.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\MS3DB\\customer-service-plans.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:MS3DB\\customer-service-plans.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\adham\\documents\\github\\ms3db\\ms3db\\customer-usage-details.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-usage-details.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\adham\\documents\\github\\ms3db\\ms3db\\customer-usage-details.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-usage-details.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\adham\\documents\\github\\ms3db\\ms3db\\customer-usage-details.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-usage-details.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|c:\\users\\adham\\documents\\github\\ms3db\\ms3db\\customer-extra-amount.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4430E99A-0E18-4CFA-A1BE-E4B6E65C7023}|MS3DB\\MS3DB.csproj|solutionrelative:ms3db\\customer-extra-amount.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,93 +14,28 @@
       "DocumentGroups": [
         {
           "DockedHeight": 262,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "customer-service-plans.aspx",
-              "DocumentMoniker": "C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\MS3DB\\customer-service-plans.aspx",
-              "RelativeDocumentMoniker": "MS3DB\\customer-service-plans.aspx",
-              "ToolTip": "C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\MS3DB\\customer-service-plans.aspx",
-              "RelativeToolTip": "MS3DB\\customer-service-plans.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-06T20:15:07.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "customer-technical-support.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\MS3DB\\customer-technical-support.aspx.cs",
-              "RelativeDocumentMoniker": "MS3DB\\customer-technical-support.aspx.cs",
-              "ToolTip": "C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\MS3DB\\customer-technical-support.aspx.cs",
-              "RelativeToolTip": "MS3DB\\customer-technical-support.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T21:41:15.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "customer-service-plans.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\MS3DB\\customer-service-plans.aspx.cs",
-              "RelativeDocumentMoniker": "MS3DB\\customer-service-plans.aspx.cs",
-              "ToolTip": "C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\MS3DB\\customer-service-plans.aspx.cs",
-              "RelativeToolTip": "MS3DB\\customer-service-plans.aspx.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T20:20:25.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "customer-usage-details.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\MS3DB\\customer-usage-details.aspx.designer.cs",
-              "RelativeDocumentMoniker": "MS3DB\\customer-usage-details.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\MS3DB\\customer-usage-details.aspx.designer.cs",
-              "RelativeToolTip": "MS3DB\\customer-usage-details.aspx.designer.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T21:21:44.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "customer-usage-details.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\MS3DB\\customer-usage-details.aspx.cs",
-              "RelativeDocumentMoniker": "MS3DB\\customer-usage-details.aspx.cs",
-              "ToolTip": "C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\MS3DB\\customer-usage-details.aspx.cs",
-              "RelativeToolTip": "MS3DB\\customer-usage-details.aspx.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T21:10:13.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "customer-usage-details.aspx",
-              "DocumentMoniker": "C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\MS3DB\\customer-usage-details.aspx",
-              "RelativeDocumentMoniker": "MS3DB\\customer-usage-details.aspx",
-              "ToolTip": "C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\MS3DB\\customer-usage-details.aspx",
-              "RelativeToolTip": "MS3DB\\customer-usage-details.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-06T21:08:41.065Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "customer-Extra-Amount.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\MS3DB\\customer-Extra-Amount.aspx.cs",
+              "RelativeDocumentMoniker": "MS3DB\\customer-Extra-Amount.aspx.cs",
+              "ToolTip": "C:\\Users\\Adham\\Documents\\GitHub\\MS3DB\\MS3DB\\customer-Extra-Amount.aspx.cs",
+              "RelativeToolTip": "MS3DB\\customer-Extra-Amount.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T00:47:36.469Z",
+              "EditorCaption": ""
             }
           ]
         }

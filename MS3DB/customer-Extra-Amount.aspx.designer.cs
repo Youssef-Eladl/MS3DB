@@ -11,17 +11,17 @@ namespace MS3DB.Pages
 {
 
 
-    public partial class RemainingAmount
+    public partial class ExtraAmount
     {
 
         /// <summary>
-        /// remainingAmountForm control.
+        /// extraAmountForm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm remainingAmountForm;
+        protected global::System.Web.UI.HtmlControls.HtmlForm extraAmountForm;
 
         /// <summary>
         /// txtAccountID control.
@@ -42,13 +42,13 @@ namespace MS3DB.Pages
         protected global::System.Web.UI.WebControls.TextBox txtPlanID;
 
         /// <summary>
-        /// btnFetchRemainingAmount control.
+        /// btnFetchExtraAmount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnFetchRemainingAmount;
+        protected global::System.Web.UI.WebControls.Button btnFetchExtraAmount;
 
         /// <summary>
         /// lblPaymentID control.
@@ -60,13 +60,13 @@ namespace MS3DB.Pages
         protected global::System.Web.UI.WebControls.Label lblPaymentID;
 
         /// <summary>
-        /// lblRemainingAmount control.
+        /// lblExtraAmount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblRemainingAmount;
+        protected global::System.Web.UI.WebControls.Label lblExtraAmount;
 
         /// <summary>
         /// lblPaymentDate control.

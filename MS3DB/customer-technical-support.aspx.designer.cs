@@ -11,7 +11,14 @@ namespace MS3DB.Pages
 {
 
 
-	public partial class customer_technical_support
-	{
-	}
+    public partial class customer_technical_support
+    {
+
+
+        protected global::System.Web.UI.WebControls.TextBox txtCustomerID;
+        protected global::System.Web.UI.WebControls.Button btnFetchUnresolvedTickets;
+
+
+        protected global::System.Web.UI.WebControls.Repeater unresolvedTicketsRepeater;
+    }
 }

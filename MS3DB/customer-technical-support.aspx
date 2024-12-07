@@ -25,6 +25,29 @@
   <main>
     <h1>Technical Support</h1>
     <!-- Content for accessing technical support -->
+      <asp:Repeater ID="unresolvedTicketsRepeater" runat="server">
+    <HeaderTemplate>
+        <table>
+            <thead>
+                <tr>
+                    <th>Account ID</th>
+                    <th>Unresolved Tickets</th>
+                </tr>
+            </thead>
+            <tbody>
+    </HeaderTemplate>
+    <ItemTemplate>
+        <tr>
+            <td><%# Eval("AccountID") %></td>
+            <td><%# Eval("UnresolvedTickets") %></td>
+        </tr>
+    </ItemTemplate>
+    <FooterTemplate>
+            </tbody>
+        </table>
+    </FooterTemplate>
+</asp:Repeater>
+
   </main>
 
   <!-- Footer -->

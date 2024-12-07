@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Web.UI;
 
-namespace MS3DB
+namespace MS3DB.Pages
 {
     public partial class UsageDetails : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            // Initialize the page if needed
+           
         }
 
         protected void btnFetchUsage_Click(object sender, EventArgs e)
         {
-            string mobileNumber = txtMobileNumber.value;
+            string mobileNumber = txtMobileNumber.Text;
 
             if (!string.IsNullOrWhiteSpace(mobileNumber))
             {
@@ -47,7 +47,7 @@ namespace MS3DB
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                string query = @"CREATE PROCEDURE sp_GetCurrentMonthUsage\r\n    @MobileNumber NVARCHAR(15)\r\nAS\r\nBEGIN\r\n    SELECT \r\n        a.AccountID,\r\n        sp.Name AS PlanName,\r\n        u.SMSUsage,\r\n        u.MinutesUsage,\r\n        u.InternetUsage,\r\n        u.UsageDate\r\n    FROM \r\n        Accounts a\r\n    INNER JOIN \r\n        Customers c ON a.CustomerID = c.CustomerID\r\n    INNER JOIN \r\n        ServicePlans sp ON a.PlanID = sp.PlanID\r\n    INNER JOIN \r\n        UsageRecords u ON a.AccountID = u.AccountID\r\n    WHERE \r\n        c.Phone = @MobileNumber\r\n        AND MONTH(u.UsageDate) = MONTH(GETDATE())\r\n        AND YEAR(u.UsageDate) = YEAR(GETDATE())\r\n        AND a.IsActive = 1; -- Ensure the account is active\r\nEND;\r\n";
+                string query = "select p.data_consumption, p.minutes_used, p.SMS_sent from Plan_Usage p\r\ninner join Subscription s \r\non p.planID = s.planID and p.mobileNo = s.mobileNo\r\nwhere p.mobileNo = @mobile_num and s.status = 'active' \r\nand month(p.start_date)= month(current_timestamp) or month(p.end_date)= month(current_timestamp) and year(p.start_date)= year(current_timestamp) or year(p.end_date)= year(current_timestamp))\r\n";
                 SqlCommand command = new SqlCommand(query, connection);
                 command.Parameters.AddWithValue("@MobileNumber", mobileNumber);
 
